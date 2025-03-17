@@ -105,7 +105,7 @@
             updateDisplay(userChoice, computerChoice, 'Draw');
         }
         
-        // Game logic
+// game logic 
         function game(userChoice) {
             // Add a small delay to simulate "thinking"
             userChoice_span.textContent = "?";
