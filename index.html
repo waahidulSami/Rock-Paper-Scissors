@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    
+    <div class="container">
+        <div class="score-board">
+            <div class="player-card">
+                <h2>You</h2>
+                <div id="user-score" class="score">0</div>
+            </div>
+            <div class="player-card">
+                <h2>Computer</h2>
+                <div id="computer-score" class="score">0</div>
+            </div>
+        </div>
+        
+        <div class="choices">
+            <button class="choice" id="rock"><span>👊</span></button>
+            <button class="choice" id="paper"><span>✋</span></button>
+            <button class="choice" id="scissors"><span>✌️</span></button>
+        </div>
+        
+        <div class="selections">
+            <div class="selection-container">
+                <div class="selection-title">Your Choice</div>
+                <div class="selection-display">
+                    <span id="user-choice">-</span>
+                </div>
+            </div>
+            <div class="selection-container">
+                <div class="selection-title">Computer's Choice</div>
+                <div class="selection-display">
+                    <span id="computer-choice">-</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="result" class="result"></div>
+        
+        <button id="reset" class="reset">Reset Game</button>
+    </div>
+    
+    <div class="container history">
+        <h3>Game History</h3>
+        <div id="history-list" class="history-list"></div>
+    </div>
+    
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
